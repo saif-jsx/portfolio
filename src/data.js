@@ -26,11 +26,12 @@ export const profile = {
   email: "saif.jsx@gmail.com",
   handle: "@saif",
   location: "India",
+  //experience: "1 year experience", // shown in the side nav, under the location
   resume: "/resume.pdf", // save your resume PDF in the /public folder as resume.pdf (or paste a link)
   avatar: profilePhoto,
   tagline: "Product designer making complex products simple to use.", // shown on the home screen
   about:
-    "I’m Mohammad Saif Khan, a Product and UI/UX Designer with a background in Computer Science Engineering. I enjoy creating simple, intuitive, and visually engaging digital experiences that solve real user problems. I combine design thinking with my technical knowledge to create user-friendly and functional products.",
+    "I'm Mohammad Saif Khan, a product designer and UI/UX designer based in Gwalior. I turn complex problems into simple, usable products, from research and wireframes to polished prototypes, and I build in React so my designs work the way I imagined them.",
 };
 
 export const navLinks = [
@@ -115,7 +116,7 @@ export const skills = [
   },
   {
     group: "Technical / hands-on",
-    items: ["HTML", "CSS", "React", "Vite", "Tailwind CSS", "Git / GitHub", "Design-to-Code Hands-off"],
+    items: ["HTML", "CSS", "React", "Vite", "Tailwind CSS", "Git / GitHub", "Design-to-Code Hands-on"],
   },
 ];
 
@@ -166,4 +167,14 @@ export const education = [
     start: 2024,
     end: 2026,
   },
+];
+
+// The tools in the "my stack" row on the home screen. icon: figma, figjam, penpot, claude, adobe or notion.
+export const stack = [
+  { name: "figma", icon: "figma" },
+  { name: "figjam", icon: "figjam" },
+  { name: "penpot", icon: "penpot" },
+  { name: "claude", icon: "claude" },
+  { name: "adobe", icon: "adobe" },
+  { name: "notion", icon: "notion" },
 ];

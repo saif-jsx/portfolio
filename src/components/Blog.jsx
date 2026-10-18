@@ -3,7 +3,7 @@ import { posts } from "../data";
 
 export default function Blog({ onOpen }) {
   return (
-    <section id="blog" className="scroll-mt-32 border-t border-zinc-200 py-20 lg:scroll-mt-8 dark:border-zinc-800">
+    <section id="blog" className="scroll-mt-32 border-t border-zinc-200 py-14 lg:py-20 lg:scroll-mt-8 dark:border-zinc-800">
       <h2 className="text-xl font-semibold text-zinc-900 dark:text-white">Blog</h2>
 
       {posts.length === 0 ? (

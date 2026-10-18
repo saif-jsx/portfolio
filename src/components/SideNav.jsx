@@ -44,6 +44,8 @@ export default function SideNav({ active, onChange, open, onToggle }) {
             <MapPin size={14} />
             {profile.location}
           </p>
+
+          <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">{profile.experience}</p>
         </div>
 
         <div className="mt-6 border-t border-zinc-200 pt-4 dark:border-zinc-800">
